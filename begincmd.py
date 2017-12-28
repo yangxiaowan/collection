@@ -28,4 +28,4 @@ import thread
 
 # cmdline.execute("scrapy crawl cpmatchhistoryspider -a eventid=1129 -a matchid=".split())
 # cmdline.execute("scrapy crawl cpmatchhistoryspider -a eventid=1076 -a matchid=".split())
-cmdline.execute("scrapy crawl qmcbaiduspider -a category=sogou -a keyword=全民彩票 -a pagenum=1".split())
+cmdline.execute("scrapy crawl qmcbaiduspider -a category=baidu -a keyword=全民彩票 -a pagenum=100".split())

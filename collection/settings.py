@@ -51,7 +51,7 @@ HTTPERROR_ALLOWED_CODES = [403]
 # See http://scrapy.readthedocs.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
 #设置下载延时，防止被ban
-DOWNLOAD_DELAY = 2
+# DOWNLOAD_DELAY = 2
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
 #CONCURRENT_REQUESTS_PER_IP = 16

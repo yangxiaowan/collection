@@ -7,6 +7,5 @@ from mflask.app import fivelotterydbinfo
 
 app = Flask(__name__)
 
-
 app.register_blueprint(testflask.mod)
 app.register_blueprint(fivelotterydbinfo.mod)
