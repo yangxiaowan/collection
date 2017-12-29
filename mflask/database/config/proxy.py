@@ -7,7 +7,7 @@ from mflask import app
 from collection.utils.PropertiesUtil import ProertiesUtil
 from playhouse.pool import PooledMySQLDatabase
 
-pt = ProertiesUtil("database/database.cfg")
+pt = ProertiesUtil("mflask/database/database.cfg")
 def getDatabaseByCfg(cfgname):
      return PooledMySQLDatabase(
          max_connections=10,
