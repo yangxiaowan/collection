@@ -2,6 +2,7 @@
 # coding: utf-8
 
 from scrapy import cmdline
+cmdline.execute("scrapy crawl qmcbaiduspider -a category=baidu -a keyword=全民彩票 -a pagenum=100".split())
 import thread
 
 # def execute500LotteryScrapy():
